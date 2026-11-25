@@ -30,10 +30,20 @@ When running a tabletop RPG campaign, game masters often prepare several charact
 
 ## Project structure
 
+This is a monorepo: the API and the web app live in the same repository as independent projects ([why](docs/adr/0001-use-monorepo.md)).
+
 ```
 backend/    ASP.NET Core Web API
 frontend/   React + TypeScript app
+docs/       Architecture, data model and decision records
 ```
+
+## Documentation
+
+- [Architecture](docs/architecture.md) — components, repository layout and environments
+- [Data model](docs/data-model.md) — entities, relationships and conventions
+- [Architecture Decision Records](docs/adr/README.md) — why each technical decision was made
+- [Contributing](CONTRIBUTING.md) — branches, commits and pull requests
 
 ## Roadmap (v2)
 
@@ -47,4 +57,4 @@ frontend/   React + TypeScript app
 
 **Douglas Silva** — Computer Science student
 
-[LinkedIn](https://www.linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username)
+[LinkedIn](https://www.linkedin.com/in/your-profile) · [GitHub](https://github.com/daquino-lvetec)
